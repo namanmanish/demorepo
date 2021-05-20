@@ -1,0 +1,42 @@
+body{
+	background-color:beige;
+}
+#mainPanel{
+	max-width: 240px;
+	margin: 0 auto;
+	background-color: rgb(172, 174, 175);
+	border: 5px solid rgb(165, 175, 186);
+	border-radius: 10px;
+}
+#calcHeading{
+	text-align: center;
+	font-size: 25px;
+	font-style: italic;
+}
+#inputPanel{
+	height: 40px;
+	font-size: 24px;
+}
+#outputPanel{
+	height: 20px;
+	font-size: 20px;
+}
+#resultPanel{
+	background-color: #99ff99;
+	text-align: right;
+	padding-right: 10px;
+	border-radius: 10px;
+}
+input[type="button"]{
+	width: 50px;
+	height: 30px;
+	margin: 3px;
+	padding:0;
+	cursor: pointer;
+	background-color: black;
+	color: white;
+	border-radius: 10px;
+}
+#equalsBtn{
+	width: 110px;
+}
